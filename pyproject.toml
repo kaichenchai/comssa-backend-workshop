@@ -1,0 +1,11 @@
+[project]
+name = "comssa-backend-workshop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.12"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "pymongo>=4.14.0",
+    "python-dotenv>=1.1.1",
+]
